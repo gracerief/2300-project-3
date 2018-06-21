@@ -1,0 +1,145 @@
+html {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+#header {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#login_status {
+  float: right;
+  position:absolute;
+  top:15px;
+  right:30px;
+  border: 1px solid red;
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+#header p a {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: black;
+  border: 0.5px solid red;
+  border-radius: 10px;
+  padding:3px;
+  margin:5px;
+  background-color:white;
+}
+
+h1 a {
+  margin: auto;
+  text-align: center;
+  font-size: 48px;
+  text-decoration: none;
+  color: red;
+  text-shadow: 0.5px 0.5px white;
+}
+
+h3 a {
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+  text-decoration: none;
+  color: red;
+  text-shadow: 0.5px 0.5px white;
+}
+
+img {
+  border: 1px solid red;
+}
+
+#full_gallery {
+  margin-left:200px;
+  margin-right: 100px;
+}
+
+#tag_gallery {
+  margin-left: 150px;
+}
+
+
+.index_image img {
+  max-height: 20vh;
+  max-width: 25vw;
+  float: left;
+  margin: 1px;
+}
+
+#sidetags {
+  float: left;
+  width: 100px;
+  list-style: none;
+}
+
+h4 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  text-shadow: 0.5px 0.5px white;
+  margin-bottom: 5px;
+}
+
+.side_tag a {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: red;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding:3px;
+  margin:5px;
+  background-color:white;
+}
+
+.single_img {
+  max-width: 80vw;
+}
+
+.tags_image img {
+  max-width: 40vw;
+  max-height: 35vw;
+  float: left;
+  padding: 1px;
+}
+
+.single_tag a {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: red;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding:3px;
+  margin:5px;
+  background-color:white;
+}
+
+#addtag {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: red;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding:3px;
+  margin:5px;
+  background-color:white;
+}
+
+#returnhome {
+  font-size: 30px;
+}
+
+#uploader_opts {
+  float: right;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: -40px;
+}
